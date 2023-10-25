@@ -9,7 +9,7 @@ function App() {
   return (
     <div style={{ display: "flex", flexDirection: "col"}}>
       <Navbar />
-      <MyZoomPat/>
+      <Zoom/>
     </div>
   );
 }

@@ -8,6 +8,8 @@ import Col from 'react-bootstrap/Col';
 
 function MyZoomPat()
 {
+
+    
     return(
     
         <div style={{ width: "90%" }}>
@@ -16,17 +18,17 @@ function MyZoomPat()
 
             </div>
             <div className="container-controls">
-            <Container fluid="md" style={{}}>
+            <Container fluid="md" >
                     <Row>
-                        <Col style={{border: "1px solid #360404d5" , display:"flex", alignItems:"flex-end", padding:"10px", background:"rgb(190 179 179 / 46%)"}} xs="4">
+                        <Col style={{ display:"flex", alignItems:"flex-end", padding:"10px", background:"rgb(190 179 179 / 46%)"}} xs="4">
                             <Form.Label>Hora de Inicio</Form.Label>
                         </Col>
 
-                        <Col style={{border: "1px solid #360404d5",display:"flex", alignItems:"flex-end",padding:"10px",background:"rgb(190 179 179 / 46%)"}} >
+                        <Col style={{display:"flex", alignItems:"flex-end",padding:"10px",background:"rgb(190 179 179 / 46%)"}} >
                             <Form.Label>Tema</Form.Label>
                         </Col>
 
-                        <Col style={{border: "1px solid #360404d5",display:"flex", alignItems:"flex-end",padding:"10px",background:"rgb(190 179 179 / 46%)"}} >
+                        <Col style={{display:"flex", alignItems:"flex-end",padding:"10px",background:"rgb(190 179 179 / 46%)"}} >
                             <Form.Label>ID de la reunion</Form.Label>
                         </Col>
                     </Row>
